@@ -1,0 +1,83 @@
+@media (max-width: 600px) {
+  .first h1 {
+    font-size: 30px;
+  }
+}
+
+.title {
+  padding-bottom: 30px;
+
+  text-transform: capitalize;
+  color: #00aeef;
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.first {
+  margin-top: 60px;
+
+  position: relative;
+
+  text-align: center;
+}
+
+.first:after {
+  content: "";
+  width: 40%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.04) 0%,
+    rgba(255, 255, 255, 0.2) 48.42%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+}
+
+.second {
+  text-align: center;
+}
+
+.second .schedule {
+  color: #fff;
+
+  background-color: #1e1f25;
+  border-radius: 10px;
+}
+
+.second .schedule .days {
+  padding: 30px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.second .colums {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.second .colums div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #2c323a;
+}
+
+.second .colums div h4 {
+  color: #00aeef;
+}
+
+.second .colums div p:first-of-type {
+  margin: 10px 0;
+}

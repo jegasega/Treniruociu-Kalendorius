@@ -1,0 +1,83 @@
+.all-trainers {
+  color: #1d2229;
+}
+
+.trainers-text {
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.classes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.classes img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.classes p {
+  width: 80%;
+  margin: 10px 0;
+
+  color: #6a6a6a;
+}
+
+.classes a {
+  color: #524ff5;
+}
+
+@media (max-width: 800px) {
+  .classes {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 30px;
+  }
+
+  .classes {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.join-our-club {
+  height: 60vh;
+  background-image: url(../../assets/classes7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  text-align: center;
+}
+
+.join-our-club p {
+  width: 80%;
+  margin: 20px auto;
+
+  color: #6a6a6a;
+}
+
+.join-our-club button {
+  margin: 0 auto;
+
+  background-color: #a1f65e;
+}
+
+.join-our-club button:hover {
+  color: #fff;
+}
+
+.join-our-club button:before {
+  background-color: #1d2229;
+}
